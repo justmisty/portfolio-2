@@ -13,25 +13,25 @@ const Projects = () => {
       <div className={styles.projectContainer}>
         <ProjectCard
           src={viberr}
-          link="/"
+          link="#"
           title="Viberr"
           description="Streaming App"
         />
         <ProjectCard
           src={freshBurger}
-          link="/"
+          link="#"
           title="Fresh Burger"
           description="Hamburger Resturant"
         />
         <ProjectCard
           src={hipster}
-          link="/"
+          link="#"
           title="Hipster"
           description="Glasses and frames"
         />
         <ProjectCard
           src={fitLift}
-          link="/"
+          link="#"
           title="FitLift"
           description="Fitness App"
         />

@@ -1,14 +1,14 @@
 import styles from "./Hero.module.css";
 import heroImg from "../../assets/hero-img.png";
-import sun from "../../assets/sun.svg";
-import moon from "../../assets/moon.svg";
+import sun from "../../assets/sun.png";
+import moon from "../../assets/moon.png";
 import twitterLight from "../../assets/twitter-light.svg";
 import twitterDark from "../../assets/twitter-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import cv from "../../assets/cv.pdf";
+import resume from "../../assets/Resume.pdf";
 import { useTheme } from "../../common/ThemesContext";
 
 const Hero = () => {
@@ -52,10 +52,10 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern web experience for private and
-          commercial purposes
+          A seasoned frontend developer with 3+ years of expertise. Developing
+          modern web experience for private and commercial purposes.
         </p>
-        <a href={cv} download>
+        <a href={resume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
