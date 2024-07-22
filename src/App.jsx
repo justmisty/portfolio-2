@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Hero />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </>

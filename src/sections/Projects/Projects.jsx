@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import cryptoPlace from "../../assets/crypto.png";
+import netflix from "../../assets/netflix.png";
+import giphy from "../../assets/giphy.png";
+import spotify from "../../assets/spotify.png";
+import carePulse from "../../assets/carepulse1.png";
 import ProjectCard from "../../common/ProjectCard";
 
 const Projects = () => {
@@ -12,28 +13,35 @@ const Projects = () => {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectContainer}>
         <ProjectCard
-          src={viberr}
-          link="#"
-          title="Viberr"
-          description="Streaming App"
+          className="proCard"
+          src={cryptoPlace}
+          link="https://kryptoplace.netlify.app/"
+          title="CryptoPlace"
+          description="Crypto tracking App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="#"
-          title="Fresh Burger"
-          description="Hamburger Resturant"
+          src={netflix}
+          link="https://redtube1.netlify.app/"
+          title="Netflix"
+          description="Streaming service"
         />
         <ProjectCard
-          src={hipster}
-          link="#"
-          title="Hipster"
-          description="Glasses and frames"
+          src={giphy}
+          link="https://giphclone.netlify.app/"
+          title="GIPHY Clone"
+          description="Share GIFs"
         />
         <ProjectCard
-          src={fitLift}
+          src={spotify}
+          link="https://dernfy.netlify.app/"
+          title="Spotify Clone"
+          description="Streaming service"
+        />
+        <ProjectCard
+          src={carePulse}
           link="#"
-          title="FitLift"
-          description="Fitness App"
+          title="CarePulse"
+          description="Coming Soon!"
         />
       </div>
     </section>
