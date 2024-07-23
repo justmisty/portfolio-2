@@ -52,7 +52,7 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          A seasoned frontend developer with 3+ years of expertise. Developing
+          A seasoned frontend developer with 2+ years of expertise. Developing
           modern web experience for private and commercial purposes.
         </p>
         <a href={resume} download>
