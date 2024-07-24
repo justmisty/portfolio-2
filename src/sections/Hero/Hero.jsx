@@ -52,8 +52,9 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          A seasoned frontend developer with 2+ years of expertise. Developing
-          modern web experience for private and commercial purposes.
+          With over 2 years of experience, creating modern web interfaces for
+          both private and commercial clients. Adept at leveraging cutting-edge
+          technologies to deliver high-quality, user-centric solutions.
         </p>
         <a href={resume} download>
           <button className="hover">Resume</button>

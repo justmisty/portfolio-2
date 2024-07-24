@@ -3,9 +3,9 @@ import styles from "./ProjectStyles.module.css";
 import cryptoPlace from "../../assets/crypto.png";
 import netflix from "../../assets/netflix.png";
 import giphy from "../../assets/giphy.png";
-import expense from '../../assets/expense.png'
+import expense from "../../assets/expense.png";
 import spotify from "../../assets/spotify.png";
-import carePulse from "../../assets/carepulse1.png";
+import carePulse from "../../assets/carepulse.png";
 import ProjectCard from "../../common/ProjectCard";
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
         <ProjectCard
           src={netflix}
           link="https://redtube1.netlify.app/"
-          title="Netflix"
+          title="Netflix Clone"
           description="Streaming service"
         />
         <ProjectCard
