@@ -3,6 +3,7 @@ import styles from "./ProjectStyles.module.css";
 import cryptoPlace from "../../assets/crypto.png";
 import netflix from "../../assets/netflix.png";
 import giphy from "../../assets/giphy.png";
+import urlShorten from "../../assets/urlshort.png";
 import expense from "../../assets/expense.png";
 import spotify from "../../assets/spotify.png";
 import carePulse from "../../assets/carepulse.png";
@@ -11,7 +12,7 @@ import ProjectCard from "../../common/ProjectCard";
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">Selected Projects</h1>
       <div className={styles.projectContainer}>
         <ProjectCard
           className="proCard"
@@ -37,6 +38,12 @@ const Projects = () => {
           link="https://giphclone.netlify.app/"
           title="GIPHY Clone"
           description="Share GIFs"
+        />
+        <ProjectCard
+          src={urlShorten}
+          link="https://tinurl.netlify.app/"
+          title="Shorten-It"
+          description="URL shortener"
         />
         <ProjectCard
           src={spotify}
